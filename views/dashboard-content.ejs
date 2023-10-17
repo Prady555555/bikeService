@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/styles/dashboard.css">
+</head>
+<body>
+  <div class="dashboard-layout">
+   <div class="dasboardbox-layout">
+    
+    <% datas.forEach(element => { %>
+    
+      <div class="dashboard-box">
+        <div class="emaiid-box ">
+          <h2 class="mobile">Mobile Number</h2>
+          <div class="email-id-contianer">
+            <h4 class="emai-id"><%= element.customerEmail %></h4>
+          </div>
+          
+        </div>
+        
+        <div class="emaiid-box">
+          <h2 class="date">Date</h2>
+          <div class="date-container">
+            <h4 class="date-value"><%= element.date %></h4>
+          </div>
+          
+        </div>
+        
+        <div class="emaiid-box">
+          <h2 class="service">Service</h2>
+          <div class="service-container">
+            <h4 class="service-name"><%= element.serviceName %></h4>
+          </div>
+          
+        </div>
+        <div class="a-tag-summit">
+          <div class="accept-layout">
+           <a href="/accept/?acceptID=<%= element._id %>" class="comon accept">Accept</a><br> 
+          </div>
+          <div class="reject-layout">
+            <a href="/reject/?rejectID=<%= element._id  %>" class="comon reject">Reject</a><br>
+          </div>
+          <div class="delete-layout">
+             <a href="/done/?doneID=<%= element._id %>" class="comon delete">Done</a><br>
+          </div>
+        </div>
+      </div>
+     
+    <% }) %>
+    
+
+   </div> 
+  
+  </div>
+ 
+</body>
+</html>

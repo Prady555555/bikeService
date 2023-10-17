@@ -1,0 +1,10 @@
+.full-header-picture{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+img{
+  width: 300px;
+  height: 200px;
+}

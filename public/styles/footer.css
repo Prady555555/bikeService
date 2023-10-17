@@ -1,0 +1,18 @@
+body{
+  margin: 0;
+  width: 100%;
+}
+.footer-class{
+ margin-top: 10%;
+ /* margin-left: 37%; */
+ margin-bottom: 10%;
+ background-color:#00000020;
+
+}
+
+.footer-layout{
+ /* background-color: black; */
+ display: flex;
+ justify-content: center;
+ margin-bottom: 20px;
+}

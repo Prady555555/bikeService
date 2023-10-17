@@ -1,0 +1,46 @@
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+.input-full-box{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  width: 30%;
+  border-radius: 20px;
+  background-color: white;
+}
+
+body{
+  /* background-color:#FFCD4B; */
+  font-family: 'Gabarito', cursive;
+  background-color: 
+  #ced4da;
+}
+.title-form{
+  margin-top: 10px;
+}
+input{
+  border: transparent;
+  width: 90%;
+  text-align: center;
+  background-color: transparent;
+  color: black;
+}
+.input-boxes{
+  margin-bottom: 10px;
+  text-align: center;
+
+
+ 
+}
+.input-class{
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+}
+
+
+

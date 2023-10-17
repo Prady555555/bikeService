@@ -1,0 +1,111 @@
+body{
+  margin: 0;
+  max-width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color:lightblue;
+  overflow-y: scroll;
+  
+}
+
+.dashboard-layout{
+  width: 100%;
+  
+  
+}
+.dasboardbox-layout{
+  background-color:gray;
+  width: 1100px;
+  height: 100%;
+  margin: 2% 8%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.dashboard-box{
+  display: flex;
+  background-color: white;
+
+}
+.emaiid-box{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 700px;
+  height: 100px;
+  margin-left: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.mobile{
+ margin: 10px;
+}
+.date{
+  margin-top: 10px;
+  margin-left:70px
+
+}
+.service{
+  margin-top: 10px;
+  margin-left:50px
+}
+.a-tag-summit{
+  margin-left: 20px;
+  width:160px;
+  
+  border-radius: 10px;
+  margin-top: 17px;
+  margin-right: 5px;
+
+}
+.comon{
+  
+  text-decoration: none;
+  
+}
+.accept{
+  text-align: center;
+  margin-left: 13px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.accept-layout{
+  width: 80px;
+  height: 25px;
+  background-color:lightseagreen;
+  border-radius: 10px;
+}
+.reject-layout{
+  margin-top:5px;
+  width: 80px;
+  height: 25px;
+  background-color:red;
+  border-radius: 10px;
+}
+.reject{
+  text-align: center;
+  margin-left: 13px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.delete-layout{
+  margin-top: 5px;
+  width: 80px;
+  height: 25px;
+  background-color:yellow;
+  border-radius: 10px;
+}
+.delete{
+  text-align: center;
+  margin-left: 13px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.emai-id{
+margin-left: 10px;
+}
+.date-value{
+  margin-left: 70px;
+}
+.service-name{
+  margin-left: 50px;
+}

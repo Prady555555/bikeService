@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  width: 100%; 
+}
+
+
+.firstbike-layout{
+ margin-left: 35%;
+ width:30%;  
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+ border-radius: 20px;
+ height: 100%;
+
+}
+
+
+.first-bike{
+  width:100%;
+  height: 60px;
+  background-color:#313a59;
+  color:#fbaf1a;
+  text-align: center;
+  border-radius:15px;
+  
+  
+ 
+  
+}
+.firstbike-heading{
+  padding: 10px;
+}
+.firstbike-img{
+  width: 80%;
+  height:60%;
+  background-color: transparent;
+  margin-left: 10%;
+}
+.first-bike-form{
+  width: 100%;
+  margin-top: 10px;
+}
+.input-box-firstBike{
+  width: 80%;
+  height: 30px;
+  margin-bottom: 10px;
+  /* margin-left: 15%; */
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 6%;
+  
+
+}
+.select-firstbike{
+  width: 85%;
+  height: 50px;
+  /* width: 100%; */
+  /* margin-left: 15%; */
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: 6%;
+  border-color: black;
+  padding: 10px;
+  
+ 
+}
